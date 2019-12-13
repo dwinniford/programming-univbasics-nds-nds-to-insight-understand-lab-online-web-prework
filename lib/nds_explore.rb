@@ -16,6 +16,6 @@ def print_first_directors_movie_titles
     movies_string << "#{directors_database[0][:movies][index][:title]}\n"
     index += 1 
   end 
-  movies_string
-  pp directors_database
+  p movies_string
+  
 end
