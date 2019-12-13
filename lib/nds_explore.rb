@@ -17,5 +17,5 @@ def print_first_directors_movie_titles
     index += 1 
   end 
   movies_string
-  p directors_database
+  pp directors_database
 end
